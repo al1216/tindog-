@@ -16,9 +16,20 @@
   <!-- fonts awesome -->
   <script src="https://use.fontawesome.com/41541daaf2.js">
   </script>
+<script>
+        $(window).on(“load”,function(){
+          $(“.loader-wrapper”).fadeOut(“slow”);
+        });
+    </script>
 </head>
 
 <body>
+<div class=”loader-wrapper”>
+
+    <span class=”loader”><span class=”loader-inner”></span></span>
+
+</div>
+
 
   <section id="title">
     <div class="container-fluid">
@@ -211,16 +222,7 @@
 
 
   </footer>
-<div class=”loader-wrapper”>
 
-    <span class=”loader”><span class=”loader-inner”></span></span>
-
-</div>
-<script>
-        $(window).on(“load”,function(){
-          $(“.loader-wrapper”).fadeOut(“slow”);
-        });
-    </script>
 </body>
 
 </html>
